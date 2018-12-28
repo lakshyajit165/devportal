@@ -24,11 +24,11 @@ class Experience extends Component {
     )) 
     return (
       <div className="table-responsive">
-        <h4 className="mb-4 text-center">Experience Credentials</h4>
+        <h3 className="mb-4 text-center">Experience Credentials</h3>
         <table className="table">
             <thead className="thead-dark">
                 <tr>
-                   <th>Company</th> 
+                   <th className="text-center">Company</th> 
                    <th>Title</th> 
                    <th>Years</th> 
                    <th /> 
