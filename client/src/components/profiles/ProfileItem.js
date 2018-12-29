@@ -19,10 +19,10 @@ class ProfileItem extends Component {
                 <hr/>
                 <p>{profile.status} {isEmpty(profile.company) ? null : (<span>at {profile.company}</span>)}</p>
                 <p>{isEmpty(profile.location) ? null : (<span>{profile.location}</span>)}</p>
-                <Link to={`/profile/${profile.handle}`} className="btn btn-info">View Profile</Link>
+                <Link to={`/profile/${profile.handle}`} className="btn btn-info">View Profile<i className="fas fa-angle-right ml-2"></i></Link>
             </div>
             <div className="col-lg-4 d-none d-sm-block">
-                <h4 className="text-center">Skill Set</h4>
+                <h4 className="text-center"><i className="fas fa-tools mr-2"></i>Skill Set</h4>
                 <ul className="list-group text-center">
                     {profile.skills.slice(0,4).map((skill, index) => (
                         <li key={index} className="list-group-item">

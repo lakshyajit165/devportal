@@ -19,12 +19,12 @@ class Education extends Component {
             <td>
                 <Moment format="YYYY/MM/DD">{edu.from}</Moment> - {edu.to === null ? (' Present') : (<Moment format="YYYY/MM/DD">{edu.to}</Moment>)}
             </td>
-            <td><button className="btn btn-danger" onClick={this.onDeleteClick.bind(this, edu._id)}>Delete</button></td>
+            <td><button className="btn btn-danger" onClick={this.onDeleteClick.bind(this, edu._id)}>Delete<i className="fas fa-trash-alt ml-2"></i></button></td>
         </tr>
     )) 
     return (
       <div className="table-responsive">
-        <h3 className="mb-4 text-center">Education Credentials</h3>
+        <h3 className="mb-4 text-center"><i className="fas fa-graduation-cap mr-2"></i>Education Credentials</h3>
         <table className="table">
             <thead className="thead-dark">
                 <tr>
