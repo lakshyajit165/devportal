@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
 
+import MyComponent from '../typed/MyComponent';
+
 class Landing extends Component {
 
   
@@ -23,6 +25,10 @@ class Landing extends Component {
                 <div className="col-md-12 text-center">
                     <h1 className="display-3 mb-4">Developers' Portal
                     </h1>
+                    <div id="typing" style={{fontSize: '30px'}}>
+                        <MyComponent/>
+                    </div>
+                    <br/>
                     <p className="lead"> Create a developer profile/portfolio, share posts and get help from other developers</p>
                     <hr />
                     <Link to="/register" className="btn btn-lg btn-info mr-2">Sign Up<i className="fas fa-user-plus ml-2"></i></Link>
