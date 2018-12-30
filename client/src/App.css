@@ -41,3 +41,10 @@
 .form-control::placeholder {
   color: #bbb !important;
 }
+
+.forms{
+  border: 1px solid #B9B9B9;
+  padding: 60px 20px 60px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #C1C1C1;
+}

@@ -182,7 +182,7 @@ class CreateProfile extends Component {
               <div className="row">
                   <div className="col-md-8 m-auto">
                   <Link to="/dashboard" className="btn btn-light">
-                        Go Back
+                  <i className="fas fa-angle-left mr-2"></i>Go Back
                     </Link>
                       <h1 className="display-4 text-center">Edit Your Profile</h1>
                       <small className="d-block pb-3">* Required Field</small>

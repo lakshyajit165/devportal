@@ -73,7 +73,7 @@ class AddEducation extends Component {
             <div className="row">
                 <div className="col-md-8 m-auto">
                     <Link to="/dashboard" className="btn btn-light">
-                        Go Back
+                    <i className="fas fa-angle-left mr-2"></i>Go Back
                     </Link>
                     <h1 className="display-4 text-center">Add Education</h1>
                     <p className="lead text-center">Add any school, bootcamp etc that you've attended</p>
