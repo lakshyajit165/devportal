@@ -70,6 +70,10 @@ class Navbar extends Component {
                     <Link className="nav-link" to="/profiles"> Developers
                     </Link>
                 </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/about"> About
+                    </Link>
+                </li>
                 </ul>
 
                 {isAuthenticated ? authLinks : guestLinks}

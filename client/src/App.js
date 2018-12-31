@@ -26,6 +26,9 @@ import Profile from './components/profile/Profile';
 
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
+
+import about from './components/about/about';
+
 import NotFound from './components/not-found/NotFound';
  
 
@@ -96,6 +99,7 @@ class App extends Component {
                 <PrivateRoute exact path="/post/:id" component={Post} />
 
                 <Route exact path="/" component={Landing} />
+                <Route exact path="/about" component={about} />
                 <Route exact path="/register" component={Register} />
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/profiles" component={Profiles} />
