@@ -23,7 +23,7 @@ class Landing extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h1 className="display-4 mb-4">Developers' Portal</h1>
+                            <h1 className="mb-4">Developers' Portal</h1>
                             <div id="typing" style={{fontSize: '30px'}}>
                                 <MyComponent/>
                             </div>
