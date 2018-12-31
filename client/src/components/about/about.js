@@ -14,7 +14,7 @@ const about = () => {
       </p>
       <h1>Follow me on Social Media</h1>
       <hr/>
-      <div className="container text-center social">
+      <div className="text-center social">
           <a href="https://www.facebook.com/lakshyajit.laxmikant" target="_blank" rel="noopener noreferrer" className="btn btn-light"><i className="fab fa-facebook-f fa-2x"></i></a>
           <a href="https://github.com/lakshyajit165" target="_blank" rel="noopener noreferrer" className="btn btn-light"><i className="fab fa-github fa-2x"></i> </a>
           <a href="https://www.linkedin.com/in/lakshyajit/" target="_blank" rel="noopener noreferrer" className="btn btn-light"><i className="fab fa-linkedin-in fa-2x"></i> </a>
