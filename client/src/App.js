@@ -32,7 +32,8 @@ import about from './components/about/about';
 import NotFound from './components/not-found/NotFound';
  
 
-
+import HttpsRedirect from 'react-https-redirect';
+ 
 
 // Check for token
 if(localStorage.jwtToken){
@@ -62,6 +63,7 @@ if(localStorage.jwtToken){
 class App extends Component {
   render() {
     return (
+      <HttpsRedirect>
       <Provider store={ store }>
         <Router>
           <div className="App">
@@ -114,7 +116,8 @@ class App extends Component {
             <Footer />
           </div>
         </Router>
-      </Provider>  
+      </Provider>
+      </HttpsRedirect>  
     );
   }
 }
