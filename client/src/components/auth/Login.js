@@ -65,7 +65,7 @@ class Login extends Component {
             <div className="row">
                 <div className="col-lg-6 m-auto forms">
                     <div className="text-center">
-                        <img src={Img} alt=""/>
+                    <img src={Img} alt=""/>
                     </div>
                     <hr/>
                         <h1 className="display-4 text-center">Log In</h1>
