@@ -1,11 +1,11 @@
 import React from 'react';
-import Img from '../../img/logo.png';
+import Img from '../../img/logo_file.png';
 
 const about = () => {
   return (
     <div className="container text-center pt-4 pb-4 col-lg-8">
     <img src={Img} alt=""/>
-    <br/>
+    <br/><br/>
       <h1><b>About this App</b></h1>
       <hr/>
       <p className="lead text-justify pt-4 pb-4">This App was built in the process of learning the "MERN Stack". It allows people
