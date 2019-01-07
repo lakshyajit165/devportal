@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { loginUser } from '../../actions/authActions'; 
 import TextFieldGroup from '../common/TextFieldGroup';
 
-import Img from '../../img/logo.png';
+import Img from '../../img/logo_file.png';
 
 class Login extends Component {
 
