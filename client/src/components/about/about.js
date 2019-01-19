@@ -3,7 +3,7 @@ import Img from '../../img/logo_file.png';
 
 const about = () => {
   return (
-    <div className="container text-center pt-4 pb-4 col-lg-8">
+    <div className="container text-center bg-light pl-5 pr-5 pt-4 pb-4 col-lg-8" style={{ borderRadius: '5px'}}>
     <img src={Img} alt=""/>
     <br/><br/>
       <h1><b>About this App</b></h1>
@@ -18,13 +18,13 @@ const about = () => {
       <br/>
       <div className="social text-center">
         
-         <a href="https://www.facebook.com/lakshyajit.laxmikant" target="_blank" rel="noopener noreferrer" className="m-2 grey-text"><i className="fab fa-facebook-f fa-2x"></i></a>
-          <a href="https://github.com/lakshyajit165" target="_blank" rel="noopener noreferrer" className="m-2 grey-text"><i className="fab fa-github fa-2x"></i> </a>
-          <a href="https://www.linkedin.com/in/lakshyajit/" target="_blank" rel="noopener noreferrer" className="m-2 grey-text"><i className="fab fa-linkedin-in fa-2x"></i> </a>
-          <a href="https://www.quora.com/profile/Lakshyajit-Laxmikant" target="_blank" rel="noopener noreferrer" className="m-2 grey-text"><i className="fab fa-quora fa-2x"></i></a>
+         <a href="https://www.facebook.com/lakshyajit.laxmikant" target="_blank" rel="noopener noreferrer" className="m-2 text-dark"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="https://github.com/lakshyajit165" target="_blank" rel="noopener noreferrer" className="m-2 text-dark"><i className="fab fa-github fa-2x"></i> </a>
+          <a href="https://www.linkedin.com/in/lakshyajit/" target="_blank" rel="noopener noreferrer" className="m-2 text-dark"><i className="fab fa-linkedin fa-2x"></i> </a>
+          <a href="https://www.quora.com/profile/Lakshyajit-Laxmikant" target="_blank" rel="noopener noreferrer" className="m-2 text-dark"><i className="fab fa-quora fa-2x"></i></a>
          
-          <a href="https://medium.com/@lakshyajit165" target="_blank" rel="noopener noreferrer" className="m-2 grey-text"><i className="fab fa-medium fa-2x"></i> </a>
-       
+          <a href="https://medium.com/@lakshyajit165" target="_blank" rel="noopener noreferrer" className="m-2 text-dark"><i className="fab fa-medium fa-2x"></i> </a>
+          
       </div>
     </div>
   )

@@ -16,11 +16,23 @@
   margin-bottom: -50px;
 }
 
+.register{
+  position: relative;
+  background: url('./img/laptop_1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -24px;
+  margin-bottom: -50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
 .landing-inner {
   padding-top: 80px;
 }
 
-.dark-overlay {
+.dark-overlay{
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;

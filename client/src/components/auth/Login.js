@@ -61,9 +61,10 @@ class Login extends Component {
 
     return (
     <div className="login">
-            <div className="container">
+            <div className="container mx-auto">
             <div className="row">
-                <div className="col-lg-6 m-auto forms">
+                
+                <div className="col-lg-5 pl-5 pr-5 m-auto forms">
                     <div className="text-center">
                     <img src={Img} alt=""/>
                     </div>
