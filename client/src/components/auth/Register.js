@@ -68,19 +68,19 @@ class Register extends Component {
             <div className="container">
             <div className="row">
                 <div className="col-lg-7 pt-5">
-                    <h1 style={{ fontSize: '50px'}} className="text-white"><b>Built for Budding Developers!</b></h1>
+                    <h1 style={{ fontSize: '50px'}} className="text-white animated fadeInLeft"><b>Built for Budding Developers!</b></h1>
                     <br/><br/>
-                    <p className="lead text-white">Create your own profile, Take a peek at other developer profiles, Create some Posts and Interact with others.</p>
-                    <p className="lead text-white">If you want a profile pic of yours, make sure, you sign up for gravatar and put a pic of yours over there. (Gravatar is nothing but wordpress.com)</p>
+                    <p className="lead text-white animated fadeInUp">Create your own profile, Take a peek at other developer profiles, Create some Posts and Interact with others.</p>
+                    <p className="lead text-white animated fadeInUp">If you want a profile pic of yours, make sure, you sign up for gravatar and put a pic of yours over there. (Gravatar is nothing but wordpress.com)</p>
                     <br/>
-                    <p className="lead text-white"><b>Confused a bit? Follow these simple steps:</b></p>
-                    <p className="lead text-white"><i className="fas fa-caret-right mr-2"></i>Go to https://en.gravatar.com/</p>
-                    <p className="lead text-white"><i className="fas fa-caret-right mr-2"></i>Create your account with email or sign up with google.</p>
-                    <p className="lead text-white"><i className="fas fa-caret-right mr-2"></i>Confirm your account through the confirmation mail.</p>
-                    <p className="lead text-white"><i className="fas fa-caret-right mr-2"></i>Go to your profile section, and add your profile pic(Ignore if you already get a pic by signing up with google).</p>
-                    <p className="lead text-white"><i className="fas fa-caret-right mr-2"></i>Whoa! You're done!. Go to DevPortal and have fun!</p>
+                    <p className="lead text-white animated fadeInUp"><b>Confused a bit? Follow these simple steps:</b></p>
+                    <p className="lead text-white animated fadeInUp"><i className="fas fa-caret-right mr-2"></i>Go to https://en.gravatar.com/</p>
+                    <p className="lead text-white animated fadeInUp"><i className="fas fa-caret-right mr-2"></i>Create your account with email or sign up with google.</p>
+                    <p className="lead text-white animated fadeInUp"><i className="fas fa-caret-right mr-2"></i>Confirm your account through the confirmation mail.</p>
+                    <p className="lead text-white animated fadeInUp"><i className="fas fa-caret-right mr-2"></i>Go to your profile section, and add your profile pic(Ignore if you already get a pic by signing up with google).</p>
+                    <p className="lead text-white animated fadeInUp"><i className="fas fa-caret-right mr-2"></i>Whoa! You're done!. Go to DevPortal and have fun!</p>
                 </div>
-                <div className="col-lg-5 pl-5 pr-5 m-auto forms" style={{ backgroundColor: 'white'}}>
+                <div className="col-lg-5 pl-5 pr-5 m-auto forms animated fadeInRight" style={{ backgroundColor: 'white'}}>
                 <div className="text-center">
                 <img src={Img} alt=""/>
                 </div>   

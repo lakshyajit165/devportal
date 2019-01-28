@@ -64,7 +64,7 @@ class Login extends Component {
             <div className="container mx-auto">
             <div className="row">
                 
-                <div className="col-lg-5 pl-5 pr-5 m-auto forms">
+                <div className="col-lg-5 pl-5 pr-5 m-auto forms animated fadeInRight">
                     <div className="text-center">
                     <img src={Img} alt=""/>
                     </div>
