@@ -127,8 +127,8 @@ const about = () => {
     <Particles className="particles"
             params={particleOptions}
           />  
-    <div className="container text-center card pl-5 pr-5 pt-4 pb-4 col-lg-8 animated fadeInLeft" style={{ borderRadius: '5px'}}>
-    <div className="card-body">    
+    <div className="container text-center card pl-5 pr-5 pt-4 pb-4 col-lg-10 animated fadeInLeft" style={{ borderRadius: '5px'}}>
+    <div className="card-body col-lg-12 mx-auto">    
     <img src={Img} alt=""/>
     <br/><br/>
       <h1><b>About this App</b></h1>
