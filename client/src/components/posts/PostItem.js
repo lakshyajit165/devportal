@@ -36,7 +36,7 @@ import React, { Component } from 'react';
            <div className="col-md-2">
              <a href="profile.html">
                <img
-                 className="rounded-circle d-none d-md-block img50"
+                 className="rounded-circle d-none d-md-block img_50"
                  src={post.avatar}
                  alt=""
                />
