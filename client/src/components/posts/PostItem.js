@@ -31,12 +31,12 @@ import React, { Component } from 'react';
      const { post, auth, showActions } = this.props;
  
       return (
-       <div className="card card-body mb-3 animated fadeIn">
+       <div className="card card-body col-lg-10 mx-auto mb-3 animated fadeIn">
          <div className="row">
            <div className="col-md-2">
              <a href="profile.html">
                <img
-                 className="rounded-circle d-none d-md-block img100"
+                 className="rounded-circle d-none d-md-block img50"
                  src={post.avatar}
                  alt=""
                />
@@ -68,7 +68,7 @@ import React, { Component } from 'react';
                    <i className="text-secondary fas fa-thumbs-down" />
                  </button>
                  <Link to={`/post/${post._id}`} className="btn btn-info mr-1">
-                   Comments<i className="far fa-comments ml-1"></i>
+                   <i className="far fa-comments ml-1"></i>
                  </Link>
                  {post.user === auth.user.id ? (
                    <button

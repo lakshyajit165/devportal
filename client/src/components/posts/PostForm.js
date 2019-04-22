@@ -45,7 +45,7 @@ import React, { Component } from 'react';
      const { errors } = this.state;
  
       return (
-       <div className="post-form mb-3 animated zoomIn">
+       <div className="post-form mb-3 col-lg-10 mx-auto animated zoomIn">
          <div className="card card-info">
            <div className="card-header bg-info text-white text-center"><h4><i className="fas fa-pencil-alt mr-2"></i><b>Say Something...</b></h4></div>
            <div className="card-body">

@@ -127,8 +127,8 @@ const about = () => {
     <Particles className="particles"
             params={particleOptions}
           />  
-    <div className="container text-center bg-light pl-5 pr-5 pt-4 pb-4 col-lg-8 animated fadeInLeft" style={{ borderRadius: '5px'}}>
-        
+    <div className="container text-center card pl-5 pr-5 pt-4 pb-4 col-lg-8 animated fadeInLeft" style={{ borderRadius: '5px'}}>
+    <div className="card-body">    
     <img src={Img} alt=""/>
     <br/><br/>
       <h1><b>About this App</b></h1>
@@ -151,6 +151,7 @@ const about = () => {
           <a href="https://medium.com/@lakshyajit165" target="_blank" rel="noopener noreferrer" className="m-2 text-dark"><i className="fab fa-medium fa-2x"></i> </a>
           
       </div>
+    </div>
     </div>
     </div>
   )

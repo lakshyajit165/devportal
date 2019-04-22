@@ -37,7 +37,7 @@ class Navbar extends Component {
                             alt={user.name} 
                             style={{ width: '25px', marginRight: '5px' }} 
                             title="You must have a Gravatar connected to your email to display an image"/> 
-                            Logout   
+                            Logout<i className="fas fa-sign-out-alt ml-1"></i>   
                         </a>
                     </li>
                 </ul>
@@ -46,10 +46,11 @@ class Navbar extends Component {
     const guestLinks = (
         <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-                <Link className="nav-link" to="/register">Sign Up</Link>
+                <Link className="nav-link" to="/register">Sign Up<i className="fas fa-user-plus ml-1"></i></Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/login">Login</Link>
+                <Link className="nav-link" to="/login">Login<i className="fas fa-sign-in-alt ml-1"></i></Link>
+                
             </li>
         </ul>
     );
