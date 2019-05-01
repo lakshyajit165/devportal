@@ -30,8 +30,8 @@ class Landing extends Component {
                             <br/>
                             <p className="lead"> Create a developer profile/portfolio, share posts and get help from other developers</p>
                             <hr />
-                            <Link to="/register" className="btn btn-lg btn-info mr-2">Sign Up<i className="fas fa-user-plus ml-2"></i></Link>
-                            <Link to="/login" className="btn btn-lg btn-light">Login<i className="fas fa-sign-in-alt ml-2"></i></Link>
+                            <Link to="/register" className="btn btn-lg btn-info mr-1">Sign Up<i className="fas fa-user-plus ml-1"></i></Link>
+                            <Link to="/login" className="btn btn-lg btn-light">Login<i className="fas fa-sign-in-alt ml-1"></i></Link>
                         </div>
                     </div>
                 </div>
