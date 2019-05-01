@@ -129,7 +129,7 @@ const about = () => {
           />  
     <div className="container text-center card pl-5 pr-5 pt-4 pb-4 col-lg-10 animated fadeInLeft" style={{ borderRadius: '5px'}}>
     <div className="card-body col-lg-12 mx-auto">    
-    <img src={Img} alt=""/>
+    <h1><strong>-- DevPortal --</strong></h1>
     <br/><br/>
       <h1><b>About this App</b></h1>
       <hr/>

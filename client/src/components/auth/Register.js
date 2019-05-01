@@ -82,7 +82,7 @@ class Register extends Component {
                 </div>
                 <div className="col-lg-5 pl-5 pr-5 m-auto forms animated fadeInRight" style={{ backgroundColor: 'white'}}>
                 <div className="text-center">
-                <img src={Img} alt=""/>
+                <h1 className="display-5"><strong>-- DevPortal --</strong></h1>
                 </div>   
                 <hr/> 
                 <h1 className="display-4 text-center">Sign Up</h1>

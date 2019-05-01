@@ -66,7 +66,7 @@ class Login extends Component {
                 
                 <div className="col-lg-5 pl-5 pr-5 m-auto forms animated fadeInLeft">
                     <div className="text-center">
-                    <img src={Img} alt=""/>
+                    <h1 className="display-5"><strong>-- DevPortal --</strong></h1>
                     </div>
                     <hr/>
                         <h1 className="display-4 text-center">Log In</h1>
